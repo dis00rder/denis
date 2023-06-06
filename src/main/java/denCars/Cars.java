@@ -9,7 +9,7 @@ public class Cars {
     }
 
     public static Car getDummyCar() {
-        Car car = new Car(secureRandom.nextInt(5) + 2010, 0, Color.WHITE, "");
+        Car car = new Car(secureRandom.nextInt(5) + 2010, 0, Color.WHITE, "", "AX3177BE", "vin123");
         car.modelYear = car.carYear + secureRandom.nextInt(4);
         car.carMaker = switch (secureRandom.nextInt(3)) {
             case 0:

@@ -1,7 +1,5 @@
 package denCars;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main2 {
@@ -11,8 +9,8 @@ public class Main2 {
 
 
 
-        Car ford = new Car(2008, 2002, Color.RED, "Ford");
-        Car seat = new Car(2013, 2010, Color.RED, "Seat");
+        Car ford = new Car(2008, 2002, Color.RED, "Ford", "ford123", "vinford");
+        Car seat = new Car(2013, 2010, Color.RED, "Seat", "seat123", "vinseat");
 
 
         System.out.println(ford.carColor);

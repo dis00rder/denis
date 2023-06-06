@@ -7,14 +7,18 @@ public class Car extends Model {
 
     int carYear;
     Color carColor;
+    String plateNum;
+    final String VIN;
 
     SecureRandom secureRandom = new SecureRandom();
 
     final float[] wheelPressure = {2.5f, 2.5f, 2.2f, 2.2f};
 
 
-    public Car(int carYear, int modelYear, Color carColor, String carMaker) {
+    public Car(int carYear, int modelYear, Color carColor, String carMaker, String plateNum, String vin) {
         this.carYear = carYear;
+        this.VIN = vin;
+        this.plateNum=plateNum;
         this.modelYear = modelYear;
         this.carColor = carColor;
         this.carMaker = carMaker;
